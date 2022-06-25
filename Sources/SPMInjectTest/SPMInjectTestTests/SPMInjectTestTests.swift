@@ -1,14 +1,14 @@
 //
-//  MyTvLibTests.swift
-//  MyTvLibTests
+//  SPMInjectTestTests.swift
+//  SPMInjectTestTests
 //
 //  Created by JeongCheol Kim on 2022/06/25.
 //
 
 import XCTest
-@testable import MyTvLib
+@testable import SPMInjectTest
 
-class MyTvLibTests: XCTestCase {
+class SPMInjectTestTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

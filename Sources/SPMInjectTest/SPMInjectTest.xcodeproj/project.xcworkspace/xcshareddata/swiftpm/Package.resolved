@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "branch" : "master",
+        "revision" : "6746e48283ec2ab2d0f05935acbbf7e9767f555f"
+      }
+    },
+    {
+      "identity" : "mytvlibrary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aeddang/MyTvLibrary",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c557c8cc6dd98837a94b32b7957cf7d89c402617"
+      }
+    }
+  ],
+  "version" : 2
+}

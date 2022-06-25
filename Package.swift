@@ -21,8 +21,6 @@ let package = Package(
         .target(
             name: "MyTvLib",
             dependencies: ["Kingfisher"]),
-        .testTarget(
-            name: "MyTvLibTests",
-            dependencies: ["MyTvLib"]),
+        
     ]
 )

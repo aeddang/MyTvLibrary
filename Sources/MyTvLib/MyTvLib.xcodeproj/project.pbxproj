@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3107D1CE28671A0700D65768 /* MyTvLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3107D1CD28671A0700D65768 /* MyTvLib.docc */; };
 		3107D1D428671A0700D65768 /* MyTvLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3107D1C928671A0700D65768 /* MyTvLib.framework */; };
-		3107D1D928671A0700D65768 /* MyTvLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3107D1D828671A0700D65768 /* MyTvLibTests.swift */; };
 		3107D1DA28671A0700D65768 /* MyTvLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 3107D1CC28671A0700D65768 /* MyTvLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3107D2DE28671A9F00D65768 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3107D1E528671A9E00D65768 /* DataProvider.swift */; };
 		3107D2DF28671A9F00D65768 /* DownLoadTaskProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3107D1E628671A9E00D65768 /* DownLoadTaskProvider.swift */; };
@@ -212,7 +211,6 @@
 		3107D1CC28671A0700D65768 /* MyTvLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTvLib.h; sourceTree = "<group>"; };
 		3107D1CD28671A0700D65768 /* MyTvLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyTvLib.docc; sourceTree = "<group>"; };
 		3107D1D328671A0700D65768 /* MyTvLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTvLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3107D1D828671A0700D65768 /* MyTvLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTvLibTests.swift; sourceTree = "<group>"; };
 		3107D1E528671A9E00D65768 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		3107D1E628671A9E00D65768 /* DownLoadTaskProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownLoadTaskProvider.swift; sourceTree = "<group>"; };
 		3107D1E828671A9E00D65768 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
@@ -422,7 +420,6 @@
 			isa = PBXGroup;
 			children = (
 				3107D1CB28671A0700D65768 /* MyTvLib */,
-				3107D1D728671A0700D65768 /* MyTvLibTests */,
 				3107D1CA28671A0700D65768 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -451,14 +448,6 @@
 				3107D1CD28671A0700D65768 /* MyTvLib.docc */,
 			);
 			path = MyTvLib;
-			sourceTree = "<group>";
-		};
-		3107D1D728671A0700D65768 /* MyTvLibTests */ = {
-			isa = PBXGroup;
-			children = (
-				3107D1D828671A0700D65768 /* MyTvLibTests.swift */,
-			);
-			path = MyTvLibTests;
 			sourceTree = "<group>";
 		};
 		3107D1E328671A9E00D65768 /* store */ = {
@@ -1486,7 +1475,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3107D1D928671A0700D65768 /* MyTvLibTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
