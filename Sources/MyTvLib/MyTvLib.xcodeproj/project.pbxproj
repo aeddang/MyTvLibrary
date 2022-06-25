@@ -194,6 +194,7 @@
 		3107D39328671A9F00D65768 /* SceneLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3107D2DC28671A9E00D65768 /* SceneLoading.swift */; };
 		3107D39428671A9F00D65768 /* MyTvLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3107D2DD28671A9E00D65768 /* MyTvLib.docc */; };
 		3107D39728671AC900D65768 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3107D39628671AC900D65768 /* Kingfisher */; };
+		3107D3E9286721B100D65768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3107D3E8286721B100D65768 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -394,6 +395,7 @@
 		3107D2DB28671A9E00D65768 /* SceneDatePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDatePickerController.swift; sourceTree = "<group>"; };
 		3107D2DC28671A9E00D65768 /* SceneLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLoading.swift; sourceTree = "<group>"; };
 		3107D2DD28671A9E00D65768 /* MyTvLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyTvLib.docc; sourceTree = "<group>"; };
+		3107D3E8286721B100D65768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -436,6 +438,7 @@
 		3107D1CB28671A0700D65768 /* MyTvLib */ = {
 			isa = PBXGroup;
 			children = (
+				3107D3E8286721B100D65768 /* Assets.xcassets */,
 				3107D21328671A9E00D65768 /* lib */,
 				3107D23828671A9E00D65768 /* MyTvDownLoadExtention.swift */,
 				3107D21228671A9E00D65768 /* MyTvInitate.swift */,
@@ -1267,6 +1270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3107D3E9286721B100D65768 /* Assets.xcassets in Resources */,
 				3107D37628671A9F00D65768 /* ios_sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
