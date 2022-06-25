@@ -17,7 +17,7 @@ struct ProgramInfoBox:View {
     
     var body: some View {
         ZStack(alignment: .bottomLeading){
-            Image(Asset.character.pose1, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+            Image(Asset.character.pose1, bundle: Bundle.module)
                 .renderingMode(.original)
                 .resizable()
                 .scaledToFit()
@@ -28,7 +28,7 @@ struct ProgramInfoBox:View {
                     if let program = self.program {
                         HStack(spacing:Dimen.margin.thin){
                             if self.isAuto {
-                                Image(Asset.icon.auto, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+                                Image(Asset.icon.auto, bundle: Bundle.module)
                                     .renderingMode(.original)
                                     .resizable()
                                     .scaledToFit()
@@ -50,7 +50,7 @@ struct ProgramInfoBox:View {
                                         .modifier(RegularTextStyle(size: Font.size.tinyExtra, color: Color.app.white))
                                 }
                                 if let age = item.age {
-                                    Image(Asset.age.getIcon(age: age), bundle: Bundle(identifier: SystemEnvironment.bundleId))
+                                    Image(Asset.age.getIcon(age: age), bundle: Bundle.module)
                                         .renderingMode(.original)
                                         .resizable()
                                         .scaledToFit()

@@ -23,7 +23,7 @@ struct TopFunctionBox: PageView {
                 self.appSceneObserver.event = .close
             }
             HStack( spacing: Dimen.margin.micro ){
-                Image(Asset.brand.logo, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+                Image(Asset.brand.logo, bundle: Bundle.module)
                     .renderingMode(.original).resizable()
                     .scaledToFit()
                     .frame(width: 44, height: 12)

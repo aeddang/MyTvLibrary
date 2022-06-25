@@ -13,7 +13,7 @@ struct ReflashSpinner: PageComponent {
     var text:String? = nil
     var body: some View {
         VStack{
-            Image(Asset.ani.loading, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+            Image(Asset.ani.loading, bundle: Bundle.module)
                 .resizable()
                 .scaledToFit()
                 .frame(width: Dimen.icon.regular, height: Dimen.icon.regular)

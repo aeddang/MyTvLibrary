@@ -33,7 +33,7 @@ struct SelectButton: View, SelecterbleProtocol{
             ZStack{
                 HStack(spacing:0){
                     if let img = icon {
-                        Image(img, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+                        Image(img, bundle: Bundle.module)
                             .padding(.trailing, 10)
                             .foregroundColor(self.disable! ? Color.app.black40 : textModifier.color)
                             .frame(width: Dimen.icon.thin, height: Dimen.icon.thin)

@@ -25,7 +25,7 @@ struct ImageAnimation : View, AnimateDrawViewProtocol, PageProtocol {
         if self.images.isEmpty {
             Spacer()
         } else {
-            Image(self.images[self.currentFrm], bundle: Bundle(identifier: SystemEnvironment.bundleId))
+            Image(self.images[self.currentFrm], bundle: Bundle.module)
                 .renderingMode(.original)
                 .resizable()
                 .aspectRatio(contentMode: self.contentMode)

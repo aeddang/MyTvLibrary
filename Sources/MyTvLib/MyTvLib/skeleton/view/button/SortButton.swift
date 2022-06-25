@@ -36,7 +36,7 @@ struct SortButton: View{
                     if self.isFill {
                         Spacer().modifier(MatchParent())
                     }
-                    Image(Asset.icon.sort, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+                    Image(Asset.icon.sort, bundle: Bundle.module)
                             .renderingMode(.original).resizable()
                             .scaledToFit()
                             .frame(width: Dimen.icon.thin, height: Dimen.icon.thin)

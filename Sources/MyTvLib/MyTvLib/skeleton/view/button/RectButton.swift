@@ -52,7 +52,7 @@ struct RectButton: View, SelecterbleProtocol{
                         .foregroundColor( textModifier.activeColor )
                     
                     if self.icon != nil {
-                        Image(self.icon!, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+                        Image(self.icon!, bundle: Bundle.module)
                             .renderingMode(.original).resizable()
                             .scaledToFit()
                             .frame(width: Dimen.icon.tiny, height: Dimen.icon.tiny)

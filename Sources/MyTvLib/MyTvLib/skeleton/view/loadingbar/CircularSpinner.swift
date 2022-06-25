@@ -15,7 +15,7 @@ struct CircularSpinner: View {
     var resorce:String
     var body: some View {
         Group{
-            Image(resorce, bundle: Bundle(identifier: SystemEnvironment.bundleId)).renderingMode(.original)
+            Image(resorce, bundle: Bundle.module).renderingMode(.original)
                 .rotationEffect(.degrees(self.degree))
                 
         }

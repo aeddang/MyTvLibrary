@@ -93,7 +93,7 @@ struct Toast<Presenting>: View where Presenting: View {
                 .clipShape(RoundedRectangle(cornerRadius: Dimen.radius.regular))
                 .padding(.leading, 30)
                 .padding(.bottom, 4)
-                Image(self.character, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+                Image(self.character, bundle: Bundle.module)
                     .renderingMode(.original)
                     .resizable()
                     .scaledToFit()

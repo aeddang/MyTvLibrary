@@ -50,7 +50,7 @@ struct ImageButton: View, SelecterbleProtocol{
         }) {
             HStack(spacing:0){
                 Image(self.isSelected ?
-                      self.activeImage : self.defaultImage, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+                      self.activeImage : self.defaultImage, bundle: Bundle.module)
                     .renderingMode(.original).resizable()
                     .scaledToFit()
                     .frame(width: size.width, height: size.height)

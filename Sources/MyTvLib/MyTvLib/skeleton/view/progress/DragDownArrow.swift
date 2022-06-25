@@ -15,7 +15,7 @@ struct DragDownArrow: PageComponent {
     let progressMax:Double = Double(InfinityScrollModel.DRAG_COMPLETED_RANGE) 
     var body: some View {
         VStack{
-            Image(Asset.icon.dropDown, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+            Image(Asset.icon.dropDown, bundle: Bundle.module)
                 .resizable()
                 .scaledToFit()
                 .frame(width: Dimen.icon.regular, height: Dimen.icon.regular)

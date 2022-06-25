@@ -47,7 +47,7 @@ struct StrokeRectButton: View, SelecterbleProtocol{
                         .font(.custom(textModifier.family, size: textModifier.size))
                         .foregroundColor(self.isSelected ? textModifier.activeColor : textModifier.color)
                         if self.iconTrail != nil {
-                            Image(self.iconTrail!, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+                            Image(self.iconTrail!, bundle: Bundle.module)
                                 .renderingMode(.original).resizable()
                                 .scaledToFit()
                                 .frame(width: Dimen.icon.thin, height: Dimen.icon.thin)
@@ -68,7 +68,7 @@ struct StrokeRectButton: View, SelecterbleProtocol{
             ZStack{
                 HStack(spacing:Dimen.margin.tiny){
                     if self.icon != nil {
-                        Image(self.icon!, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+                        Image(self.icon!, bundle: Bundle.module)
                             .renderingMode(.original).resizable()
                             .scaledToFit()
                             .frame(width: Dimen.icon.light, height: Dimen.icon.light)
@@ -78,7 +78,7 @@ struct StrokeRectButton: View, SelecterbleProtocol{
                     .font(.custom(textModifier.family, size: textModifier.size))
                     .foregroundColor(textModifier.color)
                     if self.iconTrail != nil {
-                        Image(self.iconTrail!, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+                        Image(self.iconTrail!, bundle: Bundle.module)
                             .renderingMode(.original).resizable()
                             .scaledToFit()
                             .frame(width: Dimen.icon.thin, height: Dimen.icon.thin)

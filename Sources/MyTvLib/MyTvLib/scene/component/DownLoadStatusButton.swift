@@ -52,7 +52,7 @@ struct DownLoadStatusButton: PageComponent {
                 }
                 
             case .loaded :
-                Image(Asset.download.downloadOn, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+                Image(Asset.download.downloadOn, bundle: Bundle.module)
                     .renderingMode(.original).resizable()
                     .scaledToFit()
                     .modifier(MatchParent())

@@ -40,7 +40,7 @@ struct TextButton: View, SelecterbleProtocol{
                     .lineLimit(1)
                 }
                 if self.image != nil {
-                    Image(self.image!, bundle: Bundle(identifier: SystemEnvironment.bundleId))
+                    Image(self.image!, bundle: Bundle.module)
                     .renderingMode(.original).resizable()
                     .scaledToFit()
                     .frame(width: self.imageSize, height: self.imageSize)
