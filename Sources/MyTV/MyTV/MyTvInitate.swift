@@ -38,7 +38,6 @@ enum SceneEvent {
 
 public struct MyTvPlayer:View {
     @ObservedObject var launcher:MyTvLauncherObservable = MyTvLauncherObservable()
-    //@ObservedObject var appSceneObserver = AppSceneObserver()
     public init(launcher:MyTvLauncherObservable?) {
         if let launcher = launcher {
             self.launcher = launcher

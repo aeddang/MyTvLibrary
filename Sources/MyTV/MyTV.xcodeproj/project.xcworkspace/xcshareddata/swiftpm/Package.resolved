@@ -8,6 +8,15 @@
         "branch" : "master",
         "revision" : "6746e48283ec2ab2d0f05935acbbf7e9767f555f"
       }
+    },
+    {
+      "identity" : "sqlite.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephencelis/SQLite.swift",
+      "state" : {
+        "branch" : "master",
+        "revision" : "578be41c9f280b17c9ab77ac76bbdc393b0ea121"
+      }
     }
   ],
   "version" : 2
