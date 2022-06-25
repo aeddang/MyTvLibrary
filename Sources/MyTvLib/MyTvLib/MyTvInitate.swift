@@ -15,7 +15,7 @@ import BackgroundTasks
 class AppDelegate: PageProtocol {
     static var orientationLock = UIInterfaceOrientationMask.all
 }
-class AppSceneObserver:ObservableObject{
+class AppSceneObserver:ObservableObject{ 
     @Published var isLock = false
     @Published var isLoading = false
     @Published var loadingInfo:[String]? = nil

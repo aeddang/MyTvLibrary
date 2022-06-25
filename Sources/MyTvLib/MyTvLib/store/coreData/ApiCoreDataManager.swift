@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//import SQLite
+import SQLite
 
 class ApiCoreDataManager:PageProtocol {
     struct Models {
