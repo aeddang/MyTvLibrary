@@ -14,7 +14,7 @@ struct SystemEnvironment {
     static let model:String = AppUtil.model
     static let systemVersion:String = UIDevice.current.systemVersion
     static let bundleVersion:String = AppUtil.version
-    static let bundleId:String = "com.skb.apollo.MyTVFramework"
+    static let bundleId:String = "com.skb.apollo.MyTvLib"
     static let buildNumber:String = AppUtil.build
     static var firstLaunch :Bool = false
     static var isTablet = AppUtil.isPad()
